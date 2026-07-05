@@ -9,12 +9,41 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "pages": [
+    "languages": [
       {
-        "group": "Getting Started",
+        "language": "en",
         "pages": [
-          "index",
-          "quickstart"
+          {
+            "group": "Getting Started",
+            "pages": [
+              "index",
+              "quickstart"
+            ]
+          }
+        ]
+      },
+      {
+        "language": "cn",
+        "pages": [
+          {
+            "group": "开始使用",
+            "pages": [
+              "cn/index",
+              "cn/quickstart"
+            ]
+          }
+        ]
+      },
+      {
+        "language": "zh",
+        "pages": [
+          {
+            "group": "开始使用",
+            "pages": [
+              "zh/index",
+              "zh/quickstart"
+            ]
+          }
         ]
       }
     ],
